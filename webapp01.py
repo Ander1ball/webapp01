@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image01 = Image.open('desenvolvimento.jpg')
+image01 = Image.open('natureza.jpg')
 # Use st.title("Site do balacubaco") para adicionar um TÍTULO ao seu Web app
 st.title("!")
 
