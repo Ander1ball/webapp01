@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 image01 = Image.open('desenvolvimento.jpg')
-# Use st.title("SITE DO MATHEUSÇ ") para adicionar um TÍTULO ao seu Web app
+# Use st.title("Site do balacubaco") para adicionar um TÍTULO ao seu Web app
 st.title("!")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
