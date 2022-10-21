@@ -4,14 +4,14 @@ import streamlit as st
 from PIL import Image
 
 image01 = Image.open('download.jfif')
-# Use st.title("Site do balacubaco") para adicionar um TÍTULO ao seu Web app
+# Use st.title("Minecraft") para adicionar um TÍTULO ao seu Web app
 st.title("!")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
 st.header("site do balacubaco")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Sub Cabeçalho")
+st.subheader("por que o jog é bom pra pensar")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
