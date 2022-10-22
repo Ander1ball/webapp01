@@ -15,7 +15,7 @@ st.write("O jogo minecraft é famosso em multiplas plataformas de gaming ou plat
 
 st.subheader("O jogo conhecido como o jogo quadrado teve o seu lançamento em 18 de novembro de 2011, onde foi notado muitas caracteristicas marcantes do jogo,como por exemplo, o fato dele ser totalmente quadrado em até mesmo em seus personagens.")
 st.subheader("Seu personagens no inicio eram somente um o canonico Steve, mas em setembro de 2014 foi adicionada a personagem Alex.") 
-image01 = Image.open('steve-e-alex-minecraft.webp')
+image02 = Image.open('steve-e-alex-minecraft.webp')
 
 
 menu = esc ["Texto_Colunas",
