@@ -7,8 +7,8 @@ image01 = Image.open('download.jpeg')
 # Use st.title("Minecraft") para adicionar um TÍTULO ao seu Web app
 st.title("Minecraft")
 
-# Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("por que o jog é bom pra pensar?")
+# Use st.subheader("por que o jogo é bom para pensar?") para adicionar um SUB CABEÇALHO ao seu Web app
+st.subheader("por que o jogo é bom pra pensar?")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("O jogo minecraft é famosso em multiplas plataformas de gaming ou plataformas de streming")
@@ -18,9 +18,9 @@ st.subheader("Seu personagens no inicio eram somente um o canonico Steve, mas em
 image01 = Image.open('steve-e-alex-minecraft.webp')
 
 
-menu = ["Texto_Colunas",
-        "Texto_Markdown",
-        "Inserir_Figura"]
+menu = esc ["Texto_Colunas",
+            "Texto_Markdown",
+            "Inserir_Figura"]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
     
