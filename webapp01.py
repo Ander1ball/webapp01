@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('repository-open-graph-template (2).png')
+image =Image.open('repository-open-graph-template (2).png')
 
 # Use st.title("Minecraft") para adicionar um TÍTULO ao seu Web app
 st.title("Minecraft")
