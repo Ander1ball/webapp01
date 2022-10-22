@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-image02 = Image.open('steve-e-alex-minecraft.webp')
+image = Image.open('steve-e-alex-minecraft.webp')
 
 # Use st.title("Minecraft") para adicionar um TÍTULO ao seu Web app
 st.title("Minecraft")
