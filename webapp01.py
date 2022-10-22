@@ -3,12 +3,9 @@
 import streamlit as st
 from PIL import Image
 
-image01 = Image.open('download.jfif')
+image01 = Image.open('download.jpeg')
 # Use st.title("Minecraft") para adicionar um TÍTULO ao seu Web app
-st.title("!")
-
-# Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("Minecraft")
+st.title("Minecraft")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
 st.subheader("por que o jog é bom pra pensar?")
